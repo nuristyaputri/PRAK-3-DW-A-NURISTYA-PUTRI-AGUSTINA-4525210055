@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+    background-color: #faf8f8;
+
+    color: #faf8f8;
+
+    margin: 0;
+}
+
+
+header {
+    
+    background: linear-gradient(
+        to right,
+        #A3C9F0,
+        #FC84F2
+    );
+
+    color: rgb(255, 255, 255);
+
+    text-align: center;
+
+    padding: 35px 20px;
+}
+
+
+.foto-profil {
+    width: 150px;
+
+    height: 150px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 4px solid rgb(235, 239, 239);
+
+    margin-bottom: 10px;
+}
+
+
+header h1 {
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 40px;
+
+    font-weight: bold;
+
+    color: rgba(255, 255, 255, 0.95);
+
+    margin: 10px 0 5px;
+}
+
+
+.profesi {
+    font-size: 18px;
+
+    font-weight: normal;
+
+    color: rgba(255, 255, 255, 0.85);
+
+    margin: 0;
+}
+
+
+main {
+    width: 80%;
+
+    max-width: 900px;
+
+    margin: 30px auto;
+
+    background-color: rgb(249, 246, 246);
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
+}
+
+
+section {
+    margin-bottom: 30px;
+
+    padding-bottom: 10px;
+}
+
+
+h2 {
+    
+    color: hsl(202, 60%, 49%);
+
+    font-size: 23px;
+
+    font-family: Georgia, "Times New Roman", serif;
+
+    border-bottom: 2px solid #ac2a78;
+
+    padding-bottom: 5px;
+
+    margin-bottom: 15px;
+}
+
+
+p {
+    font-size: 18px;
+
+    color: #000000;
+
+    text-align: justify;
+
+    line-height: 1.7;
+}
+
+
+.data-profil {
+    background-color: #F7F9FC;
+
+    border-left: 5px solid hsl(200, 48%, 65%);
+
+    padding: 10px 20px;
+
+    border-radius: 5px;
+}
+
+
+ul {
+    line-height: 1.8;
+
+    padding-left: 25px;
+}
+
+
+li {
+    font-size: 18px;
+
+    color: #000000;
+
+    margin-bottom: 8px;
+}
+
+
+a {
+    color: #000000;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+
+a:hover {
+    text-decoration: underline;
+
+    color: hsl(320, 70%, 50%);
+}
+
+
+footer {
+    background: linear-gradient(
+        to right,
+        #A3C9F0,
+        #FC84F2
+    );
+
+    color: rgb(255, 255, 255);
+
+    text-align: center;
+
+    padding: 15px;
+}
+
+
+footer p {
+    text-align: center;
+
+    font-size: 14px;
+
+    color: rgb(255, 255, 255);
+
+    margin: 0;
+}
+
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 25px 15px;
+    }
+
+
+    .foto-profil {
+        width: 120px;
+
+        height: 120px;
+    }
+
+
+    header h1 {
+        font-size: 27px;
+    }
+
+
+    .profesi {
+        font-size: 15px;
+    }
+
+
+    main {
+        width: auto;
+
+        margin: 15px;
+
+        padding: 20px;
+    }
+
+
+    h2 {
+        font-size: 20px;
+    }
+
+
+    p {
+        font-size: 16px;
+    }
+
+
+    li {
+        font-size: 16px;
+    }
+
+
+    .data-profil {
+        padding: 8px 15px;
+    }
+
+
+    footer {
+        padding: 12px;
+    }
+
+}
