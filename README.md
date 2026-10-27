@@ -1,7 +1,4 @@
-# Tugas Praktikum Pertemuan 3 - Desain Web
-
-**Nama:** Nuristya Putri Agustina  
-**NPM:** 4525210055
+# PRAK 3-DW A-NURISTYA PUTRI AGUSTINA-4525210055
 
 ## Isi Tugas
 
